@@ -87,11 +87,11 @@ h2 {
 
 .notablework h1, .notablework2 h1 {
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .notablework img {
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
 }
 
 .notablework p {

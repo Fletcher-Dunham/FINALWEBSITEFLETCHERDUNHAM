@@ -1,7 +1,11 @@
-<script setup>
-</script>
-
 <template>
+  <div class="top-nav">
+    <nav>
+      <router-link :to="{ name: 'Home' }">Home</router-link>
+      <router-link :to="{ name: 'About' }">About</router-link>
+      <router-link :to="{ name: 'Previous Artists' }">Previous Artists</router-link>
+    </nav>
+  </div>
   <section class="primary-template">
     <header>Artist of the Day</header>
 
@@ -15,6 +19,10 @@
   </section>
 </template>
 
+<script setup>
+
+</script>
+
 <style scoped>
 .primary-template {
   font-family: "Gill Sans", sans-serif;
@@ -24,16 +32,34 @@
   background-color: #000;
   color: white;
   min-height: 50px;
-  padding: 1rem;
   font-size: 3rem;
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 .primary-template footer {
   display: flex;
   background-color: #000;
   color: white;
-  padding: 3rem;
+  padding: 2rem;
   justify-content: center;
+}
+
+.router-link-active {
+  font-weight: bold;
+  background-color: black;
+  font-size: 100%;
+  color: white;
+}
+
+nav {
+  display: flex;
+  font-size: 1rem;
+  margin-top: 1rem;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+
 }
 </style>
