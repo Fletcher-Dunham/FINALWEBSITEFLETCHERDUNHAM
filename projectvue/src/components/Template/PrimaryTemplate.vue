@@ -3,7 +3,7 @@
     <nav>
       <router-link :to="{ name: 'Home' }">Home</router-link>
       <router-link :to="{ name: 'About' }">About</router-link>
-      <router-link :to="{ name: 'Previous Artists' }">Previous Artists</router-link>
+      <router-link :to="{ name: 'PreviousArtists' }">Previous Artists</router-link>
     </nav>
   </div>
   <section class="primary-template">
@@ -14,7 +14,7 @@
     </section>
 
     <footer>
-      <div class="back-to-top">Archive of Artists</div>
+      <div class="back-to-top">11.20.24</div>
     </footer>
   </section>
 </template>

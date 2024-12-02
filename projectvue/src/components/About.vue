@@ -45,7 +45,7 @@ h1 {
 }
 
 .suggestion input {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -60,6 +60,7 @@ h1 {
   color: white;
   cursor: pointer;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .suggestion input,

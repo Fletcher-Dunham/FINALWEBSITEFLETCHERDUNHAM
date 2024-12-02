@@ -1,7 +1,7 @@
 import {createRouter, createWebHistory} from 'vue-router'
 import Home from "./components/Home.vue";
 import About from "./components/About.vue";
-import PreviousArtist from "./components/Template/PreviousArtist.vue";
+import PreviousArtists from "./components/PreviousArtists.vue";
 
 const router  = createRouter( {
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -18,9 +18,9 @@ const router  = createRouter( {
             component: About
         },
         {
-            path: '/Previous Artists',
-            name: 'Previous Artists',
-            component: PreviousArtist
+            path: '/PreviousArtists',
+            name: 'PreviousArtists',
+            component: PreviousArtists
         },
     ]
 })
