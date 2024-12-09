@@ -14,6 +14,11 @@ import PrimaryTemplate from "./Template/PrimaryTemplate.vue";
       <input v-model="message" placeholder="Name of Artist" />
       <button @click="submit">Submit</button>
     </div>
+    <div class="artistimage">
+
+
+
+    </div>
   </primary-template>
 </template>
 

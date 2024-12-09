@@ -14,7 +14,7 @@
     </section>
 
     <footer>
-      <div class="back-to-top">11.20.24</div>
+      <div class="back-to-top">12.09.24</div>
     </footer>
   </section>
 </template>
@@ -32,7 +32,7 @@
   background-color: #000;
   color: white;
   min-height: 50px;
-  font-size: 3rem;
+  font-size: 5rem;
   text-align: center;
   padding-bottom: 1rem;
 }
