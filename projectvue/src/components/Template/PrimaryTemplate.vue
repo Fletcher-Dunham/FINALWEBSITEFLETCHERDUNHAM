@@ -14,7 +14,7 @@
     </section>
 
     <footer>
-      <div class="back-to-top">12.09.24</div>
+      <div class="back-to-top">12.17.24</div>
     </footer>
   </section>
 </template>
@@ -61,5 +61,9 @@ nav {
   color: white;
   padding: 1rem;
 
+}
+
+footer {
+  margin-top: 1rem;
 }
 </style>

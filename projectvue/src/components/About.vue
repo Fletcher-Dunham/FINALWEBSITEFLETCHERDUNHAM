@@ -1,12 +1,16 @@
 <script setup>
 import PrimaryTemplate from "./Template/PrimaryTemplate.vue";
+import artisticon from "../assets/artisticon.svg";
 </script>
 
 <template>
   <primary-template>
+    <div class="icon-container">
+      <img :src="artisticon" alt="Artist Icon" />
+    </div>
     <h1>Request an Artist & About Us</h1>
     <div class="textcontainer">
-      <p>The purpose of "Artist of the Day" is to inspire designers and artist. Plenty of times have I found myself looking for inspiration for my next project. This website aims to aid this process and hopefully introduce designers and artists that may be intspiring to you all.</p>
+      <p>The purpose of "Artist of the Day" is to inspire designers and artists like myself. Many times I find myself looking for inspiration online for my next project but can't do this in a timely fashion. This site aims to give you inspiration regardless of the project and allow yourself to broaden your knowledge of past and present artists that have created impactful designs during their careers.</p>
     </div>
     <div class="suggestion">
       <h1>Please suggest future Artists/Designers here!</h1>
@@ -15,12 +19,10 @@ import PrimaryTemplate from "./Template/PrimaryTemplate.vue";
       <button @click="submit">Submit</button>
     </div>
     <div class="artistimage">
-
-
-
     </div>
   </primary-template>
 </template>
+
 
 <style scoped>
 h1 {
@@ -76,4 +78,18 @@ h1 {
 .suggestion button:hover {
   background-color: #0056b3;
 }
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+.icon-container svg {
+  width: 50px;
+  height: 50px;
+  border: none;
+}
+
 </style>

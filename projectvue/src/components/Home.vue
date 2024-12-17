@@ -63,6 +63,8 @@ p {
 img {
   max-width: 25rem;
   max-height: 25rem;
+  width: 100%;
+  height: auto;
 }
 
 h2 {
