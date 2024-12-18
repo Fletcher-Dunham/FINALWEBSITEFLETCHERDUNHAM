@@ -1,32 +1,32 @@
 <script setup>
 import PrimaryTemplate from "./Template/PrimaryTemplate.vue";
-import julieimage from "../assets/julieimage.png";
-import construction from "../assets/construction.png";
-import stadia2 from "../assets/stadia2.png";
+import wassiliyphoto from "../assets/wassilyphoto.png";
+import coupleonhorseback from "../assets/coupleonhorseback.png";
+import transverseline from "../assets/transverseline.png";
+
+
 </script>
 <template>
   <primary-template>
-    <h1>Julie Mehretu</h1>
+    <h1>Wassily Kandinsky</h1>
     <div class="image-container">
-      <img :src="julieimage" alt="Image of Julie Mehretu" />
+      <img :src="wassiliyphoto" alt="Image of Wassily Kandinsky" />
     </div>
     <div class="text-container">
-      <p>
-        Julie Mehretu (b. 1970) is an Ethiopian-American contemporary artist known for her large-scale abstract paintings that explore themes of urban landscapes, social change, and global interconnectedness. Born in Addis Ababa, Ethiopia, and later raised in Michigan, Mehretu’s work combines elements of cartography, architecture, and gestural mark-making to create complex, layered compositions. Her paintings often feature intricate lines, geometric shapes, and vibrant color, symbolizing the chaotic energy of modern life and the histories embedded within spaces.
-        Mehretu’s art reflects political and cultural narratives, addressing migration, identity, and displacement while inviting viewers to interpret and engage with her visual language. Her notable works, such as *Mogamma* and *Black City*, have been exhibited globally, including at the Museum of Modern Art (MoMA). A MacArthur “Genius” Fellow, Mehretu remains a significant voice in contemporary art, celebrated for her innovative style and thought-provoking approach to abstraction.
+      <p>Wassily Kandinsky (1866–1944) was a groundbreaking Russian painter and art theorist, celebrated as a pioneer of abstract art. Blending vivid colors, geometric shapes, and spiritual themes, his works sought to evoke emotions akin to music. Kandinsky’s influential pieces, such as *Composition VII* and *Yellow-Red-Blue*, explored the connection between form and feeling. His theories on abstraction, articulated in *Concerning the Spiritual in Art*, profoundly shaped modern art movements like Expressionism and Bauhaus.
       </p>
       <h2>Most Notable Works</h2>
     </div>
     <div class="notableworks-container">
       <div class="notablework">
-        <h1>Stadia II</h1>
-        <img :src="stadia2" />
-        <p>*Stadia II* (2004) by Julie Mehretu is a large-scale abstract painting that explores themes of globalization, sports, and architecture. Layers of geometric shapes, sweeping lines, and vibrant colors create a dynamic composition resembling stadiums and urban landscapes, symbolizing collective gatherings, movement, and the complexity of contemporary global culture.</p>
+        <h1>Couple on Horseback</h1>
+        <img :src="coupleonhorseback" />
+        <p>Wassily Kandinsky's *Couple on Horseback* (1906) captures a dreamlike scene with bold colors, dynamic forms, and folk art influences. The painting symbolizes love, unity, and spiritual connection, reflecting Kandinsky's early exploration of abstraction and his fascination with mystical, emotional expression..</p>
       </div>
       <div class="notablework2">
-        <h1>Empirical Construction</h1>
-        <img :src="construction" />
-        <p>*Empirical Construction* (2003) by Julie Mehretu is a layered abstract work that merges architectural blueprints, sweeping gestures, and geometric forms. Through intricate lines and transparent layers, Mehretu explores themes of urbanization, human interaction, and societal structures, reflecting the chaotic yet organized nature of modern cities and constructed environments.</p>
+        <h1>Transverse Line</h1>
+        <img :src="transverseline" />
+        <p>Wassily Kandinsky's *Transverse Line* (1923) exemplifies his abstract style, featuring intersecting geometric shapes, bold lines, and dynamic colors. The composition conveys movement and rhythm, reflecting Kandinsky's belief in the spiritual connection between art, music, and the viewer's emotional experience.</p>
       </div>
     </div>
   </primary-template>

@@ -3,6 +3,7 @@ import Home from "./components/Home.vue";
 import About from "./components/About.vue";
 import PreviousArtists from "./components/PreviousArtists.vue";
 import JulieMehretuPage from "./components/JulieMehretuPage.vue";
+import Kandinsky from "./components/Kandinsky.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,6 +28,11 @@ const router = createRouter({
             name: 'JulieMehretuPage',
             component: JulieMehretuPage,
         },
+        {
+            path: '/wassily-kandinsky',
+            name: 'WassilyKandinsky,',
+            component: Kandinsky,
+        }
     ],
 });
 

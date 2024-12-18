@@ -1,6 +1,7 @@
 <script setup>
 import PrimaryTemplate from "./Template/PrimaryTemplate.vue";
 import artisticon from "../assets/artisticon.svg";
+import messageicon from "../assets/messageicon.svg";
 </script>
 
 <template>
@@ -10,7 +11,10 @@ import artisticon from "../assets/artisticon.svg";
     </div>
     <h1>Request an Artist & About Us</h1>
     <div class="textcontainer">
-      <p>The purpose of "Artist of the Day" is to inspire designers and artists like myself. Many times I find myself looking for inspiration online for my next project but can't do this in a timely fashion. This site aims to give you inspiration regardless of the project and allow yourself to broaden your knowledge of past and present artists that have created impactful designs during their careers.</p>
+      <p>The purpose of "Artist of the Day" is to inspire designers and artists like myself. Many times I find myself looking for inspiration online for my next project but can't do this in a timely fashion. This site aims to give you inspiration regardless of the project and allow yourself to broaden your knowledge of past and present artists that have created impactful designs during their careers. This site is meant to be a QUICK overview of the artist, not an in depth biography, this is done to leave the research aspect of said artist up to the Designer.</p>
+    </div>
+    <div class="icon-container">
+      <img :src="messageicon" alt="Message Icon" />
     </div>
     <div class="suggestion">
       <h1>Please suggest future Artists/Designers here!</h1>

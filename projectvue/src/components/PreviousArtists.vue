@@ -30,16 +30,23 @@ export default defineComponent({
       <div v-for="artist in artists.data" :key="artist.name" class="artist-card">
         <p>{{ artist.name }}</p>
 
-        <router-link v-if="artist.name === 'Julie Mehretu'" to="/julie-mehretu">
+        <router-link
+            :to="artist.name === 'Julie Mehretu' ? '/julie-mehretu' : artist.name === 'Wassily Kandinsky' ? '/wassily-kandinsky' : null"
+            v-if="artist.name === 'Julie Mehretu' || artist.name === 'Wassily Kandinsky'"
+        >
           <img :src="artist.image" :alt="artist.name" />
         </router-link>
 
-        <img v-else :src="artist.image" :alt="artist.name" />
+        <template v-else>
+          <img :src="artist.image" :alt="artist.name" />
+        </template>
+
         <p>{{ artist.description }}</p>
       </div>
     </div>
   </primary-template>
 </template>
+
 
 
 <style>
